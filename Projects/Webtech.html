@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="wtresponsive.css"> -->
+    <title>Anas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: orangered;
+            font-weight: bolder;
+        }
+
+        header {
+            display: flex;
+            background-color: rgb(15, 15, 15);
+            height: 100px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: orange;
+            font-family: "Luckiest Guy", cursive;
+            font-weight: bolder;
+            font-style: normal;
+            font-size: 70px;
+        }
+
+        .container {
+            /* background-image: url("https://img.freepik.com/free-photo/orange-photographic-studio-background-vertical-with-soft-vignette-soft-gradient-background-painted-c_1258-83425.jpg"); */
+            background-color: orange;
+            min-height: calc(100vh - 4vh - 100px);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: white;
+            /* border: solid red; */
+            width: 45vw;
+            height: 240px;
+            margin: auto;
+            border-radius: 30px;
+        }
+
+        .box h1 {
+            font-family: "Luckiest Guy", cursive;
+            font-weight: bolder;
+            font-style: normal;
+            padding-left: 20px;
+            padding-top: 10px;
+            color: orangered;
+        }
+
+        .box p {
+            font-family: "Permanent Marker", cursive;
+            font-weight: 400;
+            font-style: normal;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: black;
+            height: 4vh;
+            color: orange;
+            padding: 5px;
+            text-align: center;
+            /* display: inline; */
+            /* border-radius: 0 0 10px 10px ; */
+        }
+
+        
+        /* RESPOSIVENESS */
+        @media screen and (max-width:1200px) {
+
+            header {
+                font-size: 60px;
+                font-family: none;
+                height: 20vh;
+            }
+
+            .container {
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .box {
+                border-color: black;
+                width: 90vw;
+                margin: 15px;
+            }
+
+            .box h1 {
+                font-weight: bolder;
+                font-size: 30px;
+                color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Web Technologies
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">
+                <h1>HTML</h1>
+                <hr>
+                <p>
+                    <strong>Hyper Text Markup Language</strong><br>
+                    HTML is the standard markup language for documents designed to be displayed in a web browser. It
+                    defines the content and structure of web content. It is often assisted by technologies such as
+                    Cascading Style Sheets (CSS) and scripting languages such as JavaScript. <br>
+                    HTML NOTES: <a
+                        href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/HTML_Complete_Notes.pdf">Click
+                        Here</a>
+                </p>
+            </div>
+            <div class="box">
+                <h1>CSS</h1>
+                <hr>
+                <p>
+                    <strong>Cascading Style Sheets</strong><br>
+                    (CSS) is a style sheet language used for specifying the presentation and styling of a document
+                    written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or
+                    XHTML).CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. <br>
+                    CSS NOTES: <a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/CSS_Complete_Notes.pdf">Click Here</a>
+                </p>
+
+            </div>
+            <div class="box">
+                <h1>JAVASCRIPT</h1>
+                <hr>
+                <p>
+                    JavaScript often abbreviated as JS, is a programming language and core technology of the World Wide
+                    Web, alongside HTML and CSS. As of 2024, 98.8% of websites use JavaScript on the client side for
+                    webpage behavior,[10] often incorporating third-party libraries. All major web browsers have a
+                    dedicated JavaScript engine to execute the code on users' devices. <br>
+                    JAVASCRIPT NOTES: <a
+                        href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/JS_Chapterwise_Notes.pdf">Click
+                        Here</a>
+                </p>
+            </div>
+            <div class="box">
+                <h1>FRAMEWORKS</h1>
+                <hr>
+                <p>
+                    Web frameworks provide a standard way to build and deploy web applications on the World Wide Web.
+                    Web frameworks aim to automate the overhead associated with common activities performed in web
+                    development. For example, many web frameworks provide libraries for database access, templating
+                    frameworks, and session management, and they often promote code reuse. Although they often target
+                    development of dynamic web sites.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <i>Designed by </i><b>ANAS</b>
+    </footer>
+</body>
+
+</html>

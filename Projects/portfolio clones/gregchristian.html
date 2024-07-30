@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREG CHRISTIAN</title>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    font-family: Lato, sans-serif;
+}
+
+header{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    /* border: solid red; */
+    height: 160px;
+}
+
+header p{
+    color: white;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 5vw;
+}
+
+
+p{
+    color: grey;
+}
+
+.container{
+    min-height: calc(100vh - 260px);
+    /* border: solid blue; */
+}
+.hero-img{
+    max-width: 700px;
+    padding: 5vw;
+}
+
+.rows{
+    display: flex;
+    height: 720px;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+.column1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+}
+.column1 h1{
+    color: white;
+}
+.column1 p{
+    color: grey;
+    margin: 10px;
+    font-size: x-large;
+}
+.column1{
+    font-size: 1rem;
+}
+
+.column2{
+    width: 50vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-self: center;
+}
+.column2 img{
+    max-height: 100%;
+    width: 174px;
+    width: 25vw;
+    
+}
+
+.identity{
+    height: 50vh;
+    font-size: 7vw;
+    text-align: center;
+    color: grey;
+}
+
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec{
+    height: 50vh;
+    font-size: 7vw;
+    margin: auto;
+}
+.sec img{
+    width: 400px;
+}
+
+.identity{
+    margin-top: 40vh;
+    margin-bottom: 0;
+}
+
+footer{
+    display: flex;
+    color: grey;
+    /* border: solid red; */
+    height: 100px;
+    /* align-self: center; */
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin: 40px;
+}
+
+
+/* MEADIA SCREEN AT 500px */
+@media only screen and (max-width: 500px){
+    .rows{
+        flex-direction: column;
+        /* border: solid red; */
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+    .column1{
+        width: 100vw;
+        /* border: blue solid; */
+        height: 20vh;
+    }
+    .column2{
+        width: 100vw;
+        height: calc(720px - 20vh);
+    }
+    .column2 img{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .sec{
+        width: 100vw;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+    }
+    .sec img{
+        width: 80%;
+    }
+    .identity{
+        margin-top: 0;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        /* border: red solid; */
+        height: 40vh;
+    }
+    .identity p{
+        font-size: 50px;
+    }
+    footer{
+        margin-top: 30vh;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+       <p> MOHAMMAD<br>ANAS</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="hero-img">
+                <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/62857ffcce35c24844d702c0_Frame%2049.svg" alt="Hero Image">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="column1">
+                <div class="logo">
+                    <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/62796544d11f9fbea9dd9c8c_bc.svg" alt="">
+                </div>
+                <p>
+                    BLOCKCHAIN.COM // iOS + ANDROID + WEB
+                </p>
+                <h1>CRYPTO WALLET</h1>
+            </div>
+            <div class="column2">
+                <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/6279653e64762674ef662d20_wallet-p-500.png" alt="">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="column1">
+                <div class="logo">
+                    <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/62796544d11f9fbea9dd9c8c_bc.svg" alt="">
+                </div>
+                <p>
+                    BLOCKCHAIN.COM // iOS + ANDROID + WEB
+                </p>
+                <h1>CRYPTO EXCHANGE</h1>
+            </div>
+            <div class="column2">
+                <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/628581346b26691b02b03e10_exchange_ios-p-500.png" alt="">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="column1">
+                <div class="logo">
+                    <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/5efd49c64f70d109add36db2_ss_icon.svg" alt="">
+                </div>
+                <p>
+                    SEA STATUS // iOS
+                </p>
+                <h1>LIVE MARINE WEATHER</h1>
+            </div>
+            <div class="column2">
+                <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/5ca9044cd636b742005c21ca_dev_ss-p-500.png" alt="">
+            </div>
+        </div> 
+        <!-- new div -->
+        <div class="identity">
+            <p>IDENTITY PROJECTS</p>
+        </div>
+        <div class="last">
+            <div class="sec">
+                <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/5f556a82bd87eb4f4a9f3951_blockchain-wordmark-white.svg" alt="">
+            </div>
+            <div class="sec">
+                <img src="https://uploads-ssl.webflow.com/5305024184cddf3925000bdf/5ca908e67177dc8452d22ed5_logo_dw.svg" alt="">
+            </div>
+
+        </div>
+        
+    </main>
+    <footer>
+       <p>
+        CLONED BY ANAS
+       </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>PSIT che</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+  .bgimage{
+    background-image: url("https://erp.psitche.ac.in/assets/img/bg-14.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 900px;
+    float: left;
+  }
+  .placement{
+    margin: 90px ;
+    margin-top: 60px;
+  }
+
+  img{
+    margin-top: 50px;
+  }
+  form{
+    font-size: 35px;
+  }
+  .text{
+    background-color: rgba(0, 0, 0, 0.573);
+    color: white;
+    padding: 30px;
+    font-family: cursive;
+  }
+
+  /* login  */
+  .login{
+    height: 700px;
+    text-align: center;
+    float: right;
+    width: 468px;
+  }
+  .data{
+    width: 450px;
+    height: 40px;
+    margin: 6px;
+    border-radius: 5px;
+  }
+  #enter{
+    border: black solid 1px;
+  }
+  #signin{
+    background-color: rgb(3, 86, 196);
+    color: white;
+    font-size: 20px;
+  }
+  #forgot{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+  }
+  #new{
+    background-color: rgb(78, 61, 147);
+    color: white;
+    font-size: 20px;
+  }
+  #parent{
+    background-color: rgb(103, 106, 243);
+    color: white;
+    font-size: 20px;
+  }
+
+  .psit{
+    margin: 40px;
+  }
+  @media only screen and (max-width:800px){
+    body{
+      background-color: gray;
+    }
+    .data{
+      width: 650px;
+    height: 40px;
+    margin: 6px;
+    border-radius: 5px;
+    }
+  }
+</style>
+
+<body>
+<div>
+  <div class="bgimage">
+    <img class="placement" src="https://erp.psitche.ac.in/assets/img/dashboard/L_01.png" alt="placement"width="700px">
+    <div class="text">
+      <h1>Welcome to PSIT Kanpur</h1>
+      <p>
+        The access to this website is limited to the institute Management, Faculty and Students only (Login to your accounts to navigate the website). Visitors may kindly visit www.psit.ac.in for information about the institutes.
+      </p>
+    </div>
+  </div>
+  <div class="login">
+    <img class="psit" src="https://erp.psitche.ac.in/assets/img/psit.png" alt="psit">
+    <form style="text-align: center;">
+      <input class="data" id="enter" type="text" placeholder="User Id/ Roll No."><br>
+      <input class="data" id="enter" type="text" placeholder="Password"><br>
+      <input class="data" id="signin" type="submit" value="Sign in"><br>
+      <input class="data" id="forgot" type="button" value="Forgot Password"><br>
+      <input class="data" id="new" type="button" value="New Account"><br>
+      <input class="data" id="parent" type="button" value="Parent Login"><br>
+      
+
+    </form>
+  </div>
+</div>
+</body>
+</html>

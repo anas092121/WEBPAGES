@@ -1,0 +1,106 @@
+@media screen and (max-width:1000px){
+    body{
+    background-color: black;
+    color: white;
+}
+    nav{
+        flex-direction: column;
+        /* border: solid red; */
+        background-color: rgb(74, 74, 74);
+    }
+
+    .scrollimage img{
+        height: 23vh;
+    }
+
+    .logo{
+        /* display: flex; */
+        /* justify-content: center; */
+        margin: 12px 0;
+        /* border: solid red; */
+        width: 40vw;
+        /* align-items: center; */
+        margin: 2vh 38vw auto auto;
+    }
+    .logo img{
+        /* padding-right: 50px; */
+        width: 100%;
+    }
+
+    nav ul{
+        justify-content: center;
+        margin-top: 1vh;
+    }
+    a:link{
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+    }
+    .btn{
+        justify-content: center;
+        margin: auto 15px;
+        background-color: black;
+        width: 20vw;
+        height: 4vh;
+    }
+
+    .search input{
+        margin: 12px 0px 15px 50px;
+        width: 50vw;
+        color: white;
+        background-color: black;
+        height: 4vh;
+    }
+
+    nav ul {
+        height: 34px;
+    }
+    .item img{ 
+        width: 80px;
+        /* border: solid; */
+    }
+    .card-items{
+        display:grid;
+        /* border: solid; */
+        grid-template-columns: auto auto auto;
+    }
+    .card{
+        /* border: solid; */
+        width: 100vw;
+    }
+    p{
+        font-size: 10px;
+        /* border: solid; */
+        /* margin: auto; */
+        text-align: center;
+        width: 80px;
+        font-weight: normal;
+    }
+    .lines{
+        /* border: solid red; */
+        width: 80px;
+        margin-bottom: 20px;
+    }
+    .card h2{
+        /* border: solid red; */
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: normal;
+        padding-bottom: 15px;
+    }
+    header{
+        background-color: rgba(17, 14, 14, 0.61);
+        color:white;
+
+    }
+    /* footer{
+        background-color: rgba(17, 14, 14, 0.61);
+        color: white;
+        border: solid red;
+    } */
+    #foot{
+        background-color: rgb(74, 74, 74);
+        /* border: solid red; */
+        color: black;
+        font-weight: bolder;
+    }
+}
