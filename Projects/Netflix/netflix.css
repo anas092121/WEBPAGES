@@ -1,0 +1,129 @@
+/* div {
+    border: solid red;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(47, 46, 46);
+}
+
+.main {
+    height: 100vh;
+    background-color: black;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.8)), url("https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d-1024x576.jpg");
+    background-size: cover;
+}
+
+.top {
+    height: 15vh;
+}
+
+.left {
+    width: 30vw;
+    float: left;
+    height: 100%;
+}
+
+.left img {
+    width: 180px;
+    padding-left: 100px;
+}
+
+.right {
+    width: 30vw;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right button{
+    background-color: rgb(247, 18, 18);
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: lighter;
+    border: 1px;
+}
+
+.lang {
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+
+.sign-in {
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+
+
+.centre {
+    height: 80vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.text p {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+#asbc{
+    font-size: 1.2rem;
+}
+
+.email{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email input{
+    background-color: rgba(0, 0, 0, 0.621);
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 15px;
+    color: white;
+    border: solid white 1px;
+    border-color: rgba(255, 255, 255, 0.452);
+}
+.email button{
+    background-color: rgb(247, 18, 18);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border: 1px;
+}
+
+
+
