@@ -1,0 +1,101 @@
+/* .mid{
+    border: solid red;
+} */
+
+.box {
+    background-color: black;
+    margin-top: 7px;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.message {
+    width: calc(50% - 150px);
+    padding-left: 150px;
+    padding-top: 180px;
+    padding-right: 0px;
+}
+.message h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.message{
+    font-size: x-large;
+}
+
+
+.pic {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.pic img {
+    width: 75%;
+}
+
+
+
+/* Responsiveness  Small Width*/
+@media only screen and (max-width: 1200px){
+
+    .message {
+        padding-left: 40px;
+        width: calc(50% - 40px);
+    }
+
+    .pic img{
+        margin: auto;
+        width: 80%;
+
+    }
+
+
+}
+
+
+/* Responsiveness mobile phone */
+@media only screen and (max-width: 1200px){
+
+    .box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 0;
+        padding: 50px;
+    }
+
+
+
+    .message {
+        width: 80vw;
+        padding: 0;
+        text-align: center;
+    }
+    .message h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+        font-weight: bolder;
+    }
+    .message{
+        font-size: medium;
+        margin-bottom: 20px;
+    }
+
+
+    .pic{
+        width: 90vw;
+    }
+    .pic img{
+        width: 100%;
+        margin: auto;
+
+    }
+
+    
+}
+
+
+
