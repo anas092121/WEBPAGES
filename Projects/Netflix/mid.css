@@ -1,7 +1,3 @@
-/* .mid{
-    border: solid red;
-} */
-
 .box {
     background-color: black;
     margin-top: 7px;
@@ -17,12 +13,14 @@
     padding-top: 180px;
     padding-right: 0px;
 }
-.message h2{
+
+.message h2 {
     font-size: 45px;
     margin-bottom: 15px;
     font-weight: bolder;
 }
-.message{
+
+.message {
     font-size: x-large;
 }
 
@@ -32,21 +30,29 @@
     align-items: center;
     width: 50%;
 }
+
 .pic img {
     width: 75%;
 }
 
 
+/* odd boxex */
 
-/* Responsiveness  Small Width*/
-@media only screen and (max-width: 1200px){
+#odd {
+    flex-direction: row;
+}
+
+
+
+/* Responsiveness  Medium  Width*/
+@media only screen and (max-width: 1200px) {
 
     .message {
         padding-left: 40px;
         width: calc(50% - 40px);
     }
 
-    .pic img{
+    .pic img {
         margin: auto;
         width: 80%;
 
@@ -57,9 +63,9 @@
 
 
 /* Responsiveness mobile phone */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 950px) {
 
-    .box{
+    .box {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -74,28 +80,28 @@
         padding: 0;
         text-align: center;
     }
-    .message h2{
+
+    .message h2 {
         font-size: 35px;
         margin-bottom: 15px;
         font-weight: bolder;
     }
-    .message{
+
+    .message {
         font-size: medium;
         margin-bottom: 20px;
     }
 
 
-    .pic{
+    .pic {
         width: 90vw;
     }
-    .pic img{
+
+    .pic img {
         width: 100%;
         margin: auto;
 
     }
 
-    
+
 }
-
-
-
