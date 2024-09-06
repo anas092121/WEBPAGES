@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: solid brown; */
+}
+
+
+/* home */
+.home{
+    /* border:solid red; */
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.div-left{
+    position: relative;
+    /* border:solid blue; */
+    height: 100vh;
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+.div-left h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.intro{
+    position: absolute;
+    /* border: solid yellow; */
+    width: 45vw;
+    height: 30vh;
+    left: 8vw;
+    bottom: 10vh;
+    /* color: yellow; */
+}
+.intro h6{
+    font-size: 3vw;
+}
+.intro h3{
+    font-weight: bold;
+    font-size: 4vw;
+    margin-bottom: 50px;
+}
+.intro button{
+    background-color: yellow;
+    border: none;
+    width: 25vw;
+    height: 8vh;
+    font-size: 2vw;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+
+
+.div-right{
+    /* border:solid green; */
+    height: 100vh;
+    width: 70%;
+
+}
+.photo img{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+
+
+/* navbar */
+.nav-bar{
+    height: 80px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.items-nav{
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+ul :hover{
+    /* color: yellow; */
+    border-bottom: solid yellow ;
+}
+
+/* nav :hover{
+    background-color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* about */
+
+.about{
+    background-color: rgb(228, 227, 227);
+    min-height: 100vh;
+    /* border: 10px solid yellow; */
+    display: flex;
+}
+
+.about-photo{
+    /* border: solid gray; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photobox{
+    border: solid black;
+    background-color: black;
+    height: 30vw;
+    width: 30vw;
+    position: relative;
+}
+#mainbox{
+    /* border: solid yellow; */
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+}
+
+
+
+.about-info{
+    /* border: solid gray; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message{
+    margin: 100px;
+}
+.message h2{
+    font-weight: bolder;
+    font-size: 3vw;
+}
+.message p{
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
