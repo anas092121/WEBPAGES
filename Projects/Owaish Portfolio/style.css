@@ -1,51 +1,50 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    /* border: solid brown; */
 }
 
 
 /* home */
-.home{
-    /* border:solid red; */
+.home {
     min-height: 100vh;
     display: flex;
 
 }
 
-.div-left{
+.div-left {
     position: relative;
-    /* border:solid blue; */
     height: 100vh;
     width: 30%;
     background-color: black;
     color: white;
 }
-.div-left h1{
+
+.div-left h1 {
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
     margin: 20px;
 }
 
-.intro{
+.intro {
     position: absolute;
-    /* border: solid yellow; */
     width: 45vw;
     height: 30vh;
     left: 8vw;
     bottom: 10vh;
-    /* color: yellow; */
 }
-.intro h6{
+
+.intro h6 {
     font-size: 3vw;
 }
-.intro h3{
+
+.intro h3 {
     font-weight: bold;
     font-size: 4vw;
     margin-bottom: 50px;
 }
-.intro button{
+
+.intro button {
     background-color: yellow;
     border: none;
     width: 25vw;
@@ -57,13 +56,13 @@
 
 
 
-.div-right{
-    /* border:solid green; */
+.div-right {
     height: 100vh;
     width: 70%;
 
 }
-.photo img{
+
+.photo img {
     width: 100%;
     height: calc(100vh - 80px);
 }
@@ -71,13 +70,13 @@
 
 
 /* navbar */
-.nav-bar{
+.nav-bar {
     height: 80px;
     background-color: rgb(59, 59, 59);
     color: white;
 }
 
-.items-nav{
+.items-nav {
     height: 80px;
     list-style: none;
     display: flex;
@@ -85,17 +84,12 @@
     justify-content: space-around;
     font-size: x-large;
     font-weight: 600;
-    
-}
-ul :hover{
-    /* color: yellow; */
-    border-bottom: solid yellow ;
+
 }
 
-/* nav :hover{
-    background-color: blue;
-} */
-
+ul :hover {
+    border-bottom: solid yellow;
+}
 
 
 
@@ -109,30 +103,30 @@ ul :hover{
 
 /* about */
 
-.about{
+.about {
     background-color: rgb(228, 227, 227);
     min-height: 100vh;
     /* border: 10px solid yellow; */
     display: flex;
 }
 
-.about-photo{
+.about-photo {
     /* border: solid gray; */
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.photobox{
+
+.photobox {
     border: solid black;
     background-color: black;
     height: 30vw;
     width: 30vw;
     position: relative;
 }
-#mainbox{
-    /* border: solid yellow; */
-    /* background-color: yellow; */
+
+#mainbox {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -142,22 +136,23 @@ ul :hover{
 
 
 
-.about-info{
-    /* border: solid gray; */
+.about-info {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.message{
+.message {
     margin: 100px;
 }
-.message h2{
+
+.message h2 {
     font-weight: bolder;
     font-size: 3vw;
 }
-.message p{
+
+.message p {
     margin-top: 30px;
     font-size: x-large;
     font-weight: 500;
@@ -171,13 +166,13 @@ ul :hover{
 
 /* third-screen */
 
-.third-screen{
+.third-screen {
     height: 90vh;
     display: flex;
     background-color: rgb(22, 22, 22);
 }
 
-.skills{
+.skills {
     /* border: solid red; */
     width: 50%;
     height: 100%;
@@ -188,33 +183,49 @@ ul :hover{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.skills h3{
+
+.skills h3 {
     color: white;
     font-weight: bolder;
     font-size: 5vw;
     border-bottom: solid yellow 10px;
 }
-.prog-bar{
+
+.prog-bar {
     /* border: solid ; */
     background-color: white;
     width: 90%;
     border-radius: 10px;
 
 }
-.prog-bar div{
-    /* border: solid rgb(255, 0, 187); */
+
+.prog-bar div {
     background-color: yellow;
     border-radius: 10px;
-    /* width: 70%; */
     padding-left: 12px;
     font-size: larger;
     font-weight: bolder;
 }
-.html{width: 90%;}
-.css{width: 70%;}
-.js{width: 50%;}
-.react{width: 20%;}
-.node{width: 20%;}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 70%;
+}
+
+.js {
+    width: 50%;
+}
+
+.react {
+    width: 20%;
+}
+
+.node {
+    width: 20%;
+}
 
 
 
@@ -222,7 +233,7 @@ ul :hover{
 
 
 /* projects */
-.projects{
+.projects {
     padding-top: 5%;
     padding-bottom: 5%;
     width: 50%;
@@ -233,19 +244,22 @@ ul :hover{
     justify-content: space-around;
     /* border: solid red; */
 }
-.projects h3{
+
+.projects h3 {
     color: white;
     font-weight: bolder;
     font-size: 5vw;
     border-bottom: solid yellow 10px;
 }
-.projects div{
+
+.projects div {
     border: solid yellow 2px;
     width: 60%;
     height: 20%;
     border-radius: 10px;
 }
-.projects img{
+
+.projects img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -255,7 +269,7 @@ ul :hover{
 
 
 /* footer */
-footer{
+footer {
     height: 10vh;
     background-color: rgb(59, 59, 59);
     color: black;
@@ -263,23 +277,25 @@ footer{
     align-items: center;
     justify-content: space-around;
 }
-.logo{
+
+.logo {
     width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.icon{
+
+.icon {
     width: 35px;
     height: 35px;
 }
 
-.icon img{
+.icon img {
     width: 100%;
     height: 100%;
 }
-footer p{
+
+footer p {
     margin: auto;
 }
-
