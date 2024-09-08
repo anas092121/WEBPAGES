@@ -163,3 +163,123 @@ ul :hover{
     font-weight: 500;
 }
 
+
+
+
+
+
+
+/* third-screen */
+
+.third-screen{
+    height: 90vh;
+    display: flex;
+    background-color: rgb(22, 22, 22);
+}
+
+.skills{
+    /* border: solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.skills h3{
+    color: white;
+    font-weight: bolder;
+    font-size: 5vw;
+    border-bottom: solid yellow 10px;
+}
+.prog-bar{
+    /* border: solid ; */
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+
+}
+.prog-bar div{
+    /* border: solid rgb(255, 0, 187); */
+    background-color: yellow;
+    border-radius: 10px;
+    /* width: 70%; */
+    padding-left: 12px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.html{width: 90%;}
+.css{width: 70%;}
+.js{width: 50%;}
+.react{width: 20%;}
+.node{width: 20%;}
+
+
+
+
+
+
+/* projects */
+.projects{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid red; */
+}
+.projects h3{
+    color: white;
+    font-weight: bolder;
+    font-size: 5vw;
+    border-bottom: solid yellow 10px;
+}
+.projects div{
+    border: solid yellow 2px;
+    width: 60%;
+    height: 20%;
+    border-radius: 10px;
+}
+.projects img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+/* footer */
+footer{
+    height: 10vh;
+    background-color: rgb(59, 59, 59);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+}
+footer p{
+    margin: auto;
+}
+

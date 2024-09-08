@@ -1,0 +1,59 @@
+/* only for responsiveness */
+
+@media only screen and (max-width: 1000px) {
+
+    /* about */
+
+.about{
+    background-color: rgb(228, 227, 227);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.photobox{
+    height: 70vw;
+    width: 70vw;
+    position: relative;
+}
+#mainbox{
+    /* border: solid yellow; */
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+}
+
+
+
+.about-info{
+    width: 100%;
+}
+
+.message{
+    margin: 20px;
+}
+.message h2{
+    font-size: 300%;
+}
+.message p{
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+
+
+
+}
