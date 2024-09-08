@@ -14,17 +14,18 @@
 
     .intro {
         height: 25vh;
-        left: 8vw;
-        bottom: 0vh;
+        width: 55vw;
+        left: 5vw;
+        bottom: -5vh;
     }
 
     .intro h6 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .intro h3 {
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 5vw;
         margin-bottom: 10px;
     }
 
