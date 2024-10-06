@@ -195,9 +195,6 @@ nav{
 
 
 /* Celebretires */
-.cele{
-    
-}
 .cele h3{
     text-align: center;
     padding-top: 40px;
@@ -207,14 +204,26 @@ nav{
     font-size: 300%;
 }
 .photos{
-    padding: 8vw;
+    padding: 7vw;
     width: 100%;
     /* display: flex; */
 }
 .photos img{
-    width: vw;
+    width: 20vw;
     height: 20vw;
     margin: auto;
     border-radius: 50%;
     border: solid black;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(7, 41, 77);
+    font-weight: bold;
+    margin: 0px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
