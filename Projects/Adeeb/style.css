@@ -1,0 +1,24 @@
+.first{
+    min-height: 100vh;
+}
+
+#hero-adeeb{
+    height: 95vh;
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701440159.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+#about-adeeb{
+    height: 100vh;
+    
+}
+
+#hero-adeeb div h2{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#hero-adeeb div p{
+    font-size: large;
+}

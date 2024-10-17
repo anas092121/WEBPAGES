@@ -198,13 +198,13 @@ nav{
 .cele h3{
     text-align: center;
     padding-top: 40px;
-    margin-bottom: 0px;
     color: rgb(7, 41, 77);
     font-weight: bold;
     font-size: 300%;
 }
 .photos{
     padding: 7vw;
+    padding-top: 3vw;
     width: 100%;
     /* display: flex; */
 }
