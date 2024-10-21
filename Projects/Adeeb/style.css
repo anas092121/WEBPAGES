@@ -22,3 +22,31 @@
 #hero-adeeb div p{
     font-size: large;
 }
+
+.second{
+    /* border: solid blue; */
+    min-height: 101vh;
+}
+
+.third{
+    height: 500px;
+    border: solid red;
+}
+
+
+
+
+
+
+
+/* responsiveness */
+@media screen and (max-width:500px) {
+    .px-4{
+        padding-left: 100px;
+        background-color: blue;
+    }
+
+
+
+
+}
