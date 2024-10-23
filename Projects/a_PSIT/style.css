@@ -14,6 +14,7 @@ nav{
 
 .navigation{
     /* border: solid black; */
+    background-color: #fff;
     height: 100px;
     display: flex;
     align-items: center;
@@ -21,6 +22,9 @@ nav{
     color: #CCCCCC;
     padding-left: 10vw;
     padding-right: 10vw;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .navigation-img{
     display: flex;
@@ -35,12 +39,25 @@ nav{
 
 .navigation-items{
     color: rgb(7, 41, 77);
-    font-weight: bold;
+    /* font-weight: bold; */
     display: flex;
+    align-items: center;
+    justify-content: center;
     justify-content: space-around;
     /* border: solid black; */
     width: 49vw;
 }
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
 
 
 .left{
